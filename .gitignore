@@ -4,4 +4,7 @@
 *.csv
 *.xls
 *.xlsx
+vcs.xml
 desktop.ini
+
+*.idea
