@@ -1,5 +1,6 @@
 ### JupyterNotebook ###
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
-
+*.csv
+*.excel
 desktop.ini
