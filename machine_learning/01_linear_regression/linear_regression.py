@@ -1,12 +1,9 @@
 """Simple Linear Regression """
 
 #imports
-# imports
 import pandas as pd
 from sklearn.linear_model import LinearRegression
-
 from machine_learning.utils.utils import scatter_data
-# imports
 # imports
 import pandas as pd
 from sklearn.linear_model import LinearRegression
