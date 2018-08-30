@@ -4,7 +4,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
 #read file
-df = pd.read_csv("../data/hotels.csv", sep=";")
+df = pd.read_csv("../../data/hotels.csv", sep=";")
 print(df.head())
 
 print("Data: " + str(len(df)))
