@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
-from machine_learning.utils.utils import scatter_data
+from machine_learning.utils.visualize_utils import scatter_data
 
 #File
 df = pd.read_csv("../data/house_prices.csv")

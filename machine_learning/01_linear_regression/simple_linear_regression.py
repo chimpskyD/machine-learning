@@ -1,14 +1,17 @@
 """Simple Linear Regression """
 
 #imports
-import pandas as pd
-from sklearn.linear_model import LinearRegression
-from machine_learning.utils.utils import scatter_data
 # imports
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 
-from machine_learning.utils.utils import scatter_data
+from machine_learning.utils.visualize_utils import scatter_data
+# imports
+# imports
+import pandas as pd
+from sklearn.linear_model import LinearRegression
+
+from machine_learning.utils.visualize_utils import scatter_data
 
 #Open file
 df = pd.read_csv("../data/house_prices.csv")
