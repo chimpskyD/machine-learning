@@ -26,11 +26,5 @@ def cols_to_drop(dataframe, file, to_drop):
     """to_drop must be an array of strings"""
     cols = dataframe.columns.values.tolist()
     dataframe.drop(to_drop, inplace=True, axis=1)
-    dataframe.to_csv(file, sep=standard_sep, encoding=standard_encoding, columns=cols)
+    dataframe.to_csv(file, sep=standard_sep, encoding=standard_encoding, columns=cols, index_label=False)
 
-
-df = open_csv_file("../data/hotels.csv")
-cols_to_drop(df, "../data/hotels.csv", ["Unnamed: 0"])
-
-df2 = open_csv_file("../data/hotels.csv")
-print(df2.head())
