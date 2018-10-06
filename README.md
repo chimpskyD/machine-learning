@@ -1,8 +1,8 @@
 # Machine Learning
 
-This repository includes some of the scripts developed during the course "Wissenrepräsentation" at the HTW Berlin (Summer Semester 2018).
+This repository includes some playaround scripts about machine learning.
 
-Main topics during the course:
+Main topics:
 - Linear Regression (multivariables)
 - Logistic Regression
 - Validation
